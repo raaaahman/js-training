@@ -6,7 +6,7 @@ La guerre est déclarée entre les clans du Japon féodal. En tant que seigneur 
 
 Vous comme vos ennemis avez à votre disposition trois types de troupes d'élite:
 
-- les samurais sont de braves guerriers en armure lourde
+- les samourais sont de braves guerriers en armure lourde
 - les moines sont des experts en arts martiaux
 - les ninjas sont des assassins discrets
 
@@ -23,18 +23,18 @@ Modifier le script la fonction `choisirTroupes()` dans le fichier `bushido-wars.
 Cette fonctione reçoit en paramètre `armeeAdverse`, un tableau de chaînes de caractères, exemple:
 
 ```javascript
-[ 'samurai', 'moine', 'moine', 'ninja' ]
+[ 'samourai', 'moine', 'moine', 'ninja' ]
 ```
 
 Vous devez retourner le tableau contenant les troupes vous permettant de vaincre cette armée. Pour l'exemple précédent:
 
-- 'ninja' pour battre le premier samurai
-- 'samurai' pour battre le moine qui le suit
-- 'samurai' pour battre le second moine
+- 'ninja' pour battre le premier samourai
+- 'samourai' pour battre le moine qui le suit
+- 'samourai' pour battre le second moine
 - 'moine' pour battre le 'ninja' qui fini le tableau
 
 Soit:
 
 ```javascript
-[ 'ninja', 'samurai', 'samurai', 'moine' ]
+[ 'ninja', 'samourai', 'samourai', 'moine' ]
 ```
