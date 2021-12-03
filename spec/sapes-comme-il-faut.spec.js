@@ -65,7 +65,7 @@ describe('La fonction sapesClasse()',function() {
     })
 
     it("doit retourner false si le client est en caleçon", function() {
-        expect(sapesDecemment({
+        expect(sapesClasse({
             tete: '',
             torse: 't-shirt',
             jambes: 'caleçon',
@@ -133,7 +133,7 @@ describe('La fonction sapesClasse()',function() {
     })
 
     it("doit retourner false si la cliente est en soutien-gorge", function() {
-        expect(sapesDecemment({
+        expect(sapesClasse({
             tete: '',
             torse: 'soutien-gorge',
             jambes: 'jupe',
@@ -181,8 +181,4 @@ describe('La fonction sapesClasse()',function() {
             pieds: 'tennis'
         })).toBe(false)
     })
-
-    
-
-    
 })
