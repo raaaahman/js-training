@@ -14,13 +14,13 @@ describe('La fonction immobiliserVehicule()', function() {
         )).toBe(true)
     })
 
-    it("doit retourner false si l'unique passager a un taux d'alcoolémie de 0g/l", function() {
+    it("doit retourner false si l'unique passager a un taux d'alcoolémie de 0g/l et son permis de conduire", function() {
         expect(immobiliserVehicule(
             [
                 {
                     tauxAlcoolemie: 0,
                     permis: {
-                        anneeObtention: 2020,
+                        anneeObtention: 2015,
                         conduiteAccompagnee: false
                     }
                 }
